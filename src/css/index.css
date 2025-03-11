@@ -1,4 +1,5 @@
-* {
+*{
+
 	box-sizing: border-box;
 }
 
@@ -84,6 +85,44 @@ body {
 
 .button:hover {
 	background-color: #8c6cf7;
+}
+
+.edit_button{
+	display: inline-flex;
+	align-items: center;
+	gap: 0.5rem;
+	padding: 0.75rem 1.5rem;
+	background-color: #a990fb;
+	color: #15ff20;
+	border: none;
+	border-radius: 4px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+	font-weight: bold;
+	margin-bottom: 10px
+}
+
+.delete_button{
+	display: inline-flex;
+	align-items: center;
+	gap: 0.5rem;
+	padding: 0.75rem 1.5rem;
+	background-color: #a990fb;
+	color: #f72c1e;
+	border: none;
+	border-radius: 4px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+	font-weight: bold;
+	margin-left: 5px;
+}
+
+.edit_button:hover {
+	background-color: #0be728;
+}
+
+.delete_button:hover {
+	background-color: #df1809;
 }
 
 /* Modal style */
@@ -187,6 +226,68 @@ body {
 	margin: 0.25rem 0 0 0;
 	color: #593884;
 	font-style: italic;
+}
+
+.text_author{
+	display: block;
+	width: 100%;
+	font: inherit;
+	padding: 0.5rem;
+	border-radius: 6px;
+	border: none;
+	background-color: #c4a9e4;
+	color: #28262c;
+}
+
+.text_area{
+	display: block;
+	width: 100%;
+	font: inherit;
+	padding: 0.5rem;
+	border-radius: 6px;
+	border: none;
+	background-color: #c4a9e4;
+	color: #28262c;
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+
+.save_button{
+	display: inline-flex;
+	align-items: center;
+	gap: 0.5rem;
+	padding: 0.75rem 1.5rem;
+	background-color: #a990fb;
+	color: #15ff20;
+	border: none;
+	border-radius: 4px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+	font-weight: bold;
+	margin-bottom: 10px
+}
+
+.save_button:hover {
+	background-color: #0be728;
+}
+
+.cancel_button{
+	display: inline-flex;
+	align-items: center;
+	gap: 0.5rem;
+	padding: 0.75rem 1.5rem;
+	background-color: #a990fb;
+	color: #f72c1e;
+	border: none;
+	border-radius: 4px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+	font-weight: bold;
+	margin-left: 5px;
+}
+
+.cancel_button:hover{
+	background-color: #df1809;
 }
 
 @keyframes animate-in {
